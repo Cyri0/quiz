@@ -10,6 +10,8 @@ const Task = (props) => {
         return word.split('').sort(x => Math.random() * 2 - 1).join().replaceAll(',', '')
     }
 
+    /*Hello Világ!*/
+
     useEffect(()=>{
         setMixedWord(mixWord(task.word4))
         setSolution('')
