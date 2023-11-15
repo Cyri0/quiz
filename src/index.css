@@ -1,0 +1,13 @@
+body{
+    width: 100vw;
+    min-height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.greenBorder{
+    border: 2px solid green;
+}
